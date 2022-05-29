@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+}
+
+.colunaUm {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 500px;
+}
+
+.colunaDois {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_login {
+  width: 500px;
+}
+
+.box-login {
+  box-shadow: 0 2px 3px #a9a9a9, 0 10px 15px #a9a9a9;
+  background-color: grey;
+  padding: 30px;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.titulo_login {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #18191a;
+  margin-bottom: 20px;
+}
+
+.inputs_login {
+  margin-top: 15px;
+  padding-left: 10px;
+  width: 400px;
+  height: 45px;
+  border: none;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+}
+
+.inputs_login::placeholder {
+  color: blue;
+}
+
+.botao_entrar {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 338px;
+  height: 40px;
+  letter-spacing: 1px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+ 
+  
+}
+
+.botao_entrar:hover {
+  background-color: blue;
+  transition: 300ms;
+}
+
+.botao_criar_conta {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 338px;
+  height: 40px;
+  letter-spacing: 1px;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.botao_criar_conta:hover {
+  background-color:aquamarine;
+  transition: 300ms;
+}
+
+.background-recados {
+  background-color: #faf0e6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.centralizar_recados {
+  box-shadow: 0 2px 3px black, 0 10px 15px black;
+  background-color: grey;
+  padding: 30px;
+  border-radius: 5px;
+  width: 1050px;
+}
+
+.inputRecados {
+  margin-left: 20px;
+  margin-top: 5px;
+  padding-left: 10px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  color: grey;
+  border-radius: 5px;
+  width: 310px;
+}
+
+.inputRecados::placeholder {
+  color: grey;
+}
+
+.titulo-recados {
+  color: black;
+  padding-left: 20px;
+ 
+}
+
+.titulo-th {
+  color: #1e90ff;
+  width: 200px;
+}
+
+.detalhamento-th {
+  color: #1e90ff;
+  width: 300px;
+}
+
+.descricao-th {
+  color: #1e90ff;
+  width: 300px;
+}
+
+.acoes-th {
+  color: #1e90ff;
+  width: 470px;
+}
+
+.btn-salvar {
+  background-color: #48d1cc;
+  color: #fff;
+  border: none;
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-salvar:hover {
+  background-color: #87cefa;
+  transition: 250ms;
+}
+
+.botao-sair-recados {
+  background-color: #54ab72;
+  color: #fff;
+  border: none;
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.botao-sair-recados:hover {
+  background-color: #f0e8e5;
+  transition: 250ms;
+}
+
+.btn-editar {
+  background-color: #54ab72;
+}
+
+.btn-editar:hover {
+  background-color: #144405df;
+  transition: 250ms;
+}
+
+.btn-apagar {
+  background-color: rgb(196, 64, 64);
+}
+
+.btn-apagar:hover {
+  background-color: blue;
+  transition: 250ms;
+}
+
+.titulo-td {
+  color: grey;
+}
+
+.descricao-td {
+  color: light gray;
+}
+
+.registro-indice {
+  width: 40px;
+  color: #1e90ff;
+}
